@@ -1,0 +1,136 @@
+.wrapper {
+  max-width: auto;
+  height: auto;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.section {
+  margin-top: 0px;
+}
+.title {
+  font-size: 3.8rem;
+  margin-top: 50px;
+  font-weight: 550;
+}
+
+.desc {
+  font-size: 1.5rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.text {
+  text-align: center;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 30px;
+  border: 5px solid #555;
+}
+.git {
+  max-width: 40px;
+  margin-right: 40px;
+}
+.insta {
+  max-width: 40px;
+}
+.gitimg {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  background-color: rgb(255, 255, 255);
+}
+.s-img {
+  width: auto;
+  max-width: 49px;
+  margin: 1%;
+}
+.skills {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.s-text {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.git {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.g-img {
+  width: 70%;
+}
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.git-img {
+  width: 220%;
+  margin-left: -30px;
+}
+
+.insta-img {
+  margin-left: 20px;
+  width: 120%;
+}
+
+.git-img:hover {
+  color: rgb(6, 132, 216);
+}

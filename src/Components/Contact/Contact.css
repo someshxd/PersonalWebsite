@@ -1,0 +1,42 @@
+.contact {
+  width: auto;
+  height: auto;
+  margin-top: 90px;
+  background-color: rgb(214, 214, 214);
+}
+
+.c-title {
+  text-align: center;
+  color: rgb(6, 132, 216);
+  font-size: 40px;
+  font-weight: 600;
+}
+
+p {
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(6, 132, 216);
+}
+
+.c-desc {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.c-add {
+  font-size: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.c-add:hover {
+  color: rgb(6, 132, 216);
+}

@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.service {
+  margin-top: 20px;
+  width: auto;
+  height: auto;
+  background: rgb(214, 214, 214);
+}
+
+.s-head {
+  font-size: 4rem;
+  padding: 50px 0;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.services {
+  width: auto;
+  height: auto;
+  margin: auto;
+  background-color: rgb(214, 214, 214);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.ser1 {
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  flex: 1 1 300px;
+  margin: 30px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.ser2 {
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  flex: 1 1 300px;
+  margin: 30px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.ser3 {
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  flex: 1 1 300px;
+  margin: 30px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.s-title {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0px;
+  font-weight: 800;
+}
+
+.s-desc {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 10px;
+}
+
+.ser-img {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.bottom-m {
+  height: 50px;
+}
