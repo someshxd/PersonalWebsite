@@ -17,14 +17,22 @@ export default function MIdSection() {
             </span>
           </div>
           <div className="git">
-            <a href="https://github.com/someshxd" target="_blank">
+            <a
+              href="https://github.com/someshxd"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src="Assets/Skills/git.png"
                 className="git-img"
                 alt="github"
               />
             </a>
-            <a href="https://www.instagram.com/someshvrma/" target="_blank">
+            <a
+              href="https://www.instagram.com/someshvrma/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src="Assets/Skills/instagram.png"
                 className="insta-img"
