@@ -18,23 +18,35 @@ export default function MIdSection() {
           </div>
           <div className="git">
             <a href="https://github.com/someshxd" target="_blank">
-              <img src="Assets/Skills/git.png" className="git-img" />
+              <img
+                src="Assets/Skills/git.png"
+                className="git-img"
+                alt="github"
+              />
             </a>
             <a href="https://www.instagram.com/someshvrma/" target="_blank">
-              <img src="Assets/Skills/instagram.png" className="insta-img" />
+              <img
+                src="Assets/Skills/instagram.png"
+                className="insta-img"
+                alt="instagram"
+              />
             </a>
           </div>
           <div className="p-img">
-            <img className="profile" src="Assets/pro.jpg" />
+            <img className="profile" src="Assets/pro.jpg" alt="my-profile" />
           </div>
         </div>
         <div className="right">
           <div className="skills">
             <span className="s-text">Tech Stack |</span>
-            <img className="s-img" src="Assets/Skills/js.png" />
-            <img className="s-img" src="Assets/Skills/react.png" />
-            <img className="s-img" src="Assets/Skills/html.png" />
-            <img className="s-img" src="Assets/Skills/css.png" />
+            <img
+              className="s-img"
+              src="Assets/Skills/js.png"
+              alt="javascript"
+            />
+            <img className="s-img" src="Assets/Skills/react.png" alt="react" />
+            <img className="s-img" src="Assets/Skills/html.png" alt="html" />
+            <img className="s-img" src="Assets/Skills/css.png" alt="css" />
           </div>
         </div>
       </div>

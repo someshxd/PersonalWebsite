@@ -6,7 +6,7 @@ export default function AboutMe() {
     <div className="aboutme" id="aboutme">
       <div className="a-card">
         <div className="left">
-          <img src="Assets/Skills/aboutme.jpg" />
+          <img src="Assets/Skills/aboutme.jpg" alt="aboutme" />
         </div>
         <div className="right">
           <div className="desc">

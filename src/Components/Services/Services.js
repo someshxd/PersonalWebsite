@@ -7,7 +7,11 @@ export default function Services() {
       <p className="s-head">Services</p>
       <div className="services">
         <div className="ser1">
-          <img className="ser-img" src="Assets/Skills/react.jpg" />
+          <img
+            className="ser-img"
+            src="Assets/Skills/react.jpg"
+            alt="react-service"
+          />
           <p className="s-title">React web application development</p>
           <br />
           <p className="s-desc">
@@ -16,7 +20,11 @@ export default function Services() {
           </p>
         </div>
         <div className="ser2">
-          <img className="ser-img" src="Assets/Skills/main.jpg" />
+          <img
+            className="ser-img"
+            src="Assets/Skills/main.jpg"
+            alt="maintenance"
+          />
           <p className="s-title">Maintenance and support</p>
           <br />
           <p className="s-desc">
@@ -25,7 +33,7 @@ export default function Services() {
           </p>
         </div>
         <div className="ser3">
-          <img className="ser-img" src="Assets/Skills/api.png" />
+          <img className="ser-img" src="Assets/Skills/api.png" alt="api" />
           <p className="s-title">API integration</p>
           <br />
           <p className="s-desc">
