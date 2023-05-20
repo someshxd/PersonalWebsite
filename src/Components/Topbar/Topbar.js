@@ -1,18 +1,11 @@
 import React from "react";
-import { useRef } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
 import "./Topbar.css";
 
 export default function Topbar() {
-  const navRef = useRef();
-
-  const showNavbar = () => {
-    navRef.current.classList.toggle("responsive_nav");
-  };
   return (
     <header>
       <h3>S O M E S H</h3>
-      <nav ref={navRef}>
+      <nav>
         <a href="#home">Home</a>
         <a href="#services">Services</a>
         <a href="#aboutme">About Me</a>
