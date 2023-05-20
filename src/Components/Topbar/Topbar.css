@@ -19,7 +19,6 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 90px;
-
   background-color: var(--mainColor);
   color: var(--textColor);
 }
@@ -33,7 +32,7 @@ header nav {
   margin-right: 3vw;
 }
 
-nav a {
+header nav a {
   margin-left: 3vw;
   font-size: 25px;
   color: var(--textColor);
