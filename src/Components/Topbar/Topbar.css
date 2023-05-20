@@ -36,7 +36,7 @@ header nav {
 nav a {
   margin-left: 3vw;
   font-size: 25px;
-  color: white;
+  color: var(--textColor);
 }
 
 nav a:hover {
