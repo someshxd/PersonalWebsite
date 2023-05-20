@@ -17,13 +17,7 @@ export default function Topbar() {
         <a href="#services">Services</a>
         <a href="#aboutme">About Me</a>
         <a href="#contact">Contact</a>
-        <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-          <FaTimes />
-        </button>
       </nav>
-      <button className="nav-btn" onClick={showNavbar}>
-        <FaBars />
-      </button>
     </header>
   );
 }
